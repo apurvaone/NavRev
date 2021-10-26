@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.navigation.NavController
 import androidx.navigation.Navigation
 
 // TODO: Rename parameter arguments, choose names that match
@@ -40,10 +41,13 @@ class FirstFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+//
+//        val s= Navigation.createNavigateOnClickListener(R.id.action_firstFragment_to_secondFragment)
+//        val button:Button= view.findViewById(R.id.button_frag1)
+//        button.setOnClickListener(s)
 
-        val s= Navigation.createNavigateOnClickListener(R.id.action_firstFragment_to_secondFragment)
-        val button:Button= view.findViewById(R.id.button_frag1)
-        button.setOnClickListener(s)
+
+//        val navcontroller:NavController= Navigation.findNavController(activity,R.id.my_nav_host_fragment)
     }
 
     companion object {
