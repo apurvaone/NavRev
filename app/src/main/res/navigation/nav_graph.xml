@@ -13,7 +13,8 @@
         <action
             android:id="@+id/action_firstFragment_to_secondFragment"
             app:destination="@id/secondFragment"
-            app:enterAnim="@anim/nav_default_enter_anim" />
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popUpTo="@id/firstFragment" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
